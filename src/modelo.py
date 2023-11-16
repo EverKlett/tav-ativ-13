@@ -11,7 +11,7 @@ from sklearn.linear_model import LogisticRegression
 ## funções auxiliares
 from funcoes import zscore, rfm_variables, fit_data, outliers_detection
 ## Leitura do banco de dados
-data = pd.read_feather('../dados/SS.feather')
+data = pd.read_feather('../dados/ss.feather')
 ## Variáveis para utilização no modelo conforme RFM Analysis
 variaveis = [
     'f_vendas', 'f_lucro', 'm_entrega', 'm_lucro', 'm_qtde',
